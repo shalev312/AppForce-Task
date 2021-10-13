@@ -31,7 +31,7 @@ const MainHeader = () => {
         closeModal={() => setShowAddUserModal(false)}
         cancel={cancelAddUserFormHandler} />
     </Modal>
-    <Button danger onClick={showAddUserFormHandler}>ADD USER</Button>
+    <Button danger small onClick={showAddUserFormHandler}>ADD USER</Button>
   </header>;
 };
 
