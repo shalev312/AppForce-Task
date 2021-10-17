@@ -20,7 +20,7 @@ const MainHeader = () => {
 
   return <header className="main-header">
     <h1>
-      AppsForce-Task
+      Shalev Sharabi
     </h1>
     <Modal
       show={showAddUserModal}
